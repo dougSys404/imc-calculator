@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <section>
+        <h2>A student's dev path</h2>
+        <p>Hello guys! I'm Douglas, an IT Consultant and dev student as well</p>
+        <p>I'm coding simple projects using javaScript just to make sure I can archive my goals. I had PHP, Java, C classes at college, but all of them were poor classes and I also had not much interest for that. In that time, I was facineted by infrastructure, but since I was hired at my current job, new good feelings about dev universe started coming up inside me, so I'm trying hard to get enough knowlege in order to say:</p>
+
+        <h3>I'm a fucking dev motherfuckers!</h3>
+    </section>
+
+    <section>
+        <h2>Form data</h2>
+        <form id="form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="firstName">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lastName">
+
+            <label for="document-id">Document ID</label>
+            <input type="text" id="document-id" name="documentId">
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+
+            <input type="submit" name="send" value="Send" id="send">
+            <input type="submit" name="clear" value="Clear" id="clear">
+        </form>
+    </section>
+
+    <section>
+        <h2>Results</h2>
+        <ul class="disabled" id="result">
+            <li>First Name: <span id="result-first-name"></span></li>
+            <li>Last Name: <span id="result-last-name"></span></li>
+            <li>Document ID: <span id="result-document-id"></span></li>
+            <li>Address: <span id="result-address"></span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Release Notes:</h3>
+        <p>Ver: 1.0</p>
+        <p>Css Styles: None</p>
+        <p>The current app only takes form's data and show it up in an unordered list.</p>
+        <p>Stet by steb I'll add more features in this project</p>
+    </section>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
